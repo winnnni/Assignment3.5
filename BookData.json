@@ -1,0 +1,29 @@
+{
+ "myBooks" : [{
+			"bookname" : "Microeconomics",
+			"type" : "used",
+			"version" : "hardcover",
+			"needorwant" : "need"
+			}, {
+			"bookname" : "The Big Short",
+			"type" : "new",
+			"version" : "kindle",
+			"needwant" : "need"
+			}, {
+			"bookname" : "Monument's Men",
+			"type" : "new",
+			"version" : "kindle",
+			"needwant" : "want"
+			}, {
+			"bookname" : "Gateways to Art",
+			"type" : "new",
+			"version" : "papercover",
+			"needwant" : "want"
+			}, {
+			"bookname" : "Business Reader",
+			"type" : "new",
+			"version" : "papercover",
+			"needwant" : "need"
+			}]
+
+}
