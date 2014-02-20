@@ -26,11 +26,11 @@ function dataLoaded(){
 	console.log("Then is my want list");
 	
 	//use jQuery to create a new div element
-	var myDiv = $("<div>");
+	var myBooks = $("<div>");
 	//use jQuery to add some text to it
 	//he jQuery, take that div i just created called 
 	//"myDiv", and add some html (in that case, just a string).
-	$(myDiv).html("This is my Amazon shopping cart.");
+	$(myBooks).html("This is my Amazon shopping cart.");
 	
 	//I want it to show up on my page.
 	//I want jQuery grab the div with the id "bookcart" 
@@ -40,7 +40,7 @@ function dataLoaded(){
 	
 	//I expect to see a new div containg the text "This is my Amazon shopping cart."
 	//appear inside the div with the id "contentContainer"
-	$("#bookcart").append(myDiv);
+	$("#bookcart").append(myBooks);
 	
 	//use the jQeury get function to load my json file
 	//takes 3 parameter 
